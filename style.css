@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color_text {
+    color: #f16d7f!important;
+    font-weight: 900!important;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(236, 236, 236, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+}
+
+.header_left,
+.header_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_name {
+    font-size: 27px;
+    font-weight: 300;
+    color: #222222;
+    letter-spacing: 0.03em;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-left: 13px;
+}
+
+.header_form {
+    display: flex;
+    align-items: center;
+    margin-left: 37px;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.header_browse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 87px;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #222222;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    border-right: 1px solid #e6e6e6;
+    background-color: #f6f6f6;
+}
+
+.header_browse:hover {
+    background-color: #fff;
+}
+
+.header_input {
+    height: 100%;
+    width: 281px;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #a4a4a4;
+    letter-spacing: 0.03em;
+    padding-left: 16px;
+}
+
+.header_search_button {
+    border-left: 1px solid #e6e6e6;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    height: 100%;
+    width: 36px;
+}
+
+.card {
+    margin-right: 26px;
+}
+
+.header_account_button {
+    background-color:  #f16d7f;
+    height: 38px;
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    padding-left: 19px;
+    padding-right: 29px;
+}
+
+.header_account_button:hover {
+    background-color: #f15167;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    background-color: #fff;
+}
+
+.navigation_menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation_menu_link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.navigation_menu_link:hover {
+    background-color: #f16d7f;
+    color: #ffffff;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-start;
+    background-color: #e8e8e8;
+    height: 614px;
+    background-image: url(img/index/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -51px;
+}
+
+.banner_content {
+    margin-top: 224px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.banner_content_h1 {
+    font-size: 60px;
+    color: #222222;
+    letter-spacing: 0.03em;
+    line-height: 60px;
+}
+
+.banner_content_h2 {
+    font-size: 40px;
+    color: #222222;
+    letter-spacing: 0.03em;
+    line-height: 40px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1021px;
+}
+
+.gallery_man {
+    display: flex;
+    height: 542px;
+    width: 560px;
+    background-image: url(img/gallery/man.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 10px 20px 0;
+}
+
+.gallery_acsessuary {
+    display: flex;
+    height: 261px;
+    width: 560px;
+    background-image: url(img/gallery/acseccuary.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 10px 0 0;
+}
+
+.gallery_woman {
+    display: flex;
+    background-image: url(img/gallery/woman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 261px;
+    width: 560px;
+    margin: 0 0 20px 10px;
+}
+
+.gallery_kids {
+    display: flex;
+    background-image: url(img/gallery/kids.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 542px;
+    width: 560px;
+    margin: 0 0 0 10px;
+}
+
+.gallery_content {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #222222;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 16px 20px;
+}
+
+.gallery_content_big {
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.fetured {
+    height: 982px;
+}
+
+.fetured_h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 54px;
+}
+
+.fetured_content {
+    font-size: 14px;
+    color: #9f9f9f;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 60px;
+}
+
+.fetured_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 789px;
+}
+
+.fetured_link {
+    font-size: 13px;
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: relative;
+}
+
+.fetured_img {
+    opacity: 1;
+}
+
+.fetured_overlay {
+    top: 103px;
+    width: 100px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    padding-left: 70px;
+}
+
+.fetured_overlay_bg {
+    background-color: black;
+    height: 280px;
+}
+
+.fetured_overlay_content {
+    border: 1px solid #ffffff;
+    opacity: 1;
+    text-transform: none!important;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 123px;
+    height: 39px;
+    align-items: center;
+}
+
+.fetured_overlay_content > img {
+    margin-right: 8px;
+}
+
+.fetured_link:hover .fetured_overlay {
+    opacity: 1;
+}
+
+.fetured_link:hover .fetured_img {
+    opacity: .3;
+}
+
+.fetured_block:hover {
+    outline-style: solid;
+    outline-color: #e6e6e6;
+}
+
+.fetured_block_content {
+    padding-left: 14px;
+    padding-top: 10px;
+    height: 81px;
+}
+
+.fetured_block_price {
+    font-size: 16px;
+}
+
+.fetured_button_center {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.fetured_button {
+    height: 48px;
+    background-color: #f16d7f;
+    color: #fff;
+    padding: 15px 24px;
+    border: none;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+.fetured_button:hover {
+    background-color: #f15167;
+}
