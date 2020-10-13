@@ -1,0 +1,12 @@
+@mixin backgroundImage($image) {
+    background-image: $image;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@mixin fontSite($size, $weight, $height) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: 0.03em;
+}
