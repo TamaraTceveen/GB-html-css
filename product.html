@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -87,7 +87,7 @@
                         <a href="cart.html" class="drop_cart_btn drop_cart_btn_cart">Go to cart</a>
                     </div>
             </div>
-            <a href="checkout.html" class="header_account_button">My Account</a>
+                <a href="checkout.html" class="header_account_button">My Account</a>
             </div>
         </header>
         <nav class="navigation">
@@ -488,120 +488,211 @@
                 <a href="#" class="arrivals_nav_link">New Arrivals</a>
             </nav>
         </div>
-        <div class="table_cart center">
-            <table class="table_cart_table">
-                <tr class="table_cart_tr">
-                    <th colspan="2" class="table_cart_th">Product Details</th>
-                    <th class="table_cart_th">unite Price</th>
-                    <th class="table_cart_th">Quantity</th>
-                    <th class="table_cart_th">shipping</th>
-                    <th class="table_cart_th">Subtotal</th>
-                    <th class="table_cart_th">ACTION</th>
-                </tr>
-                <tr class="table_cart_tr">
-                    <td class="table_cart_td">
-                        <a href="single-page.html">
-                            <img src="img/fetured/2879cart.png">
-                        </a>
-                    </td>
-                    <td class="table_cart_td">
-                        <a href="single-page.html">
-                            <p><span class="table_cart_td_name">Mango People T-shirt</span></p>        
-                        </a>
-                        <br>
-                        <p><span class="table_cart_td_bold">Color:</span> Red <br>
-                        <span class="table_cart_td_bold">Size:</span> Xll</p>
-                    </td>
-                    <td class="table_cart_td">$150</td>
-                    <td class="table_cart_td">
-                        <input type="number" name="#" id="#" value="2" min="1" class="table_cart_td_quantity">
-                    </td>
-                    <td class="table_cart_td">FREE</td>
-                    <td class="table_cart_td">$300</td>
-                    <td class="table_cart_td">
-                        <div class="table_cart_cross"><i class="icon-cancel-circled"></i></div>
-                    </td>
-                </tr>
-                <tr class="table_cart_tr">
-                    <td class="table_cart_td">
-                        <a href="single-page.html">
-                            <img src="img/fetured/2905cart.png">
-                        </a>
-                    </td>
-                    <td class="table_cart_td">
-                        <a href="single-page.html">
-                            <p><span class="table_cart_td_name">Mango People T-shirt</span></p>        
-                        </a>
-                        <br>
-                        <p><span class="table_cart_td_bold">Color:</span> Red <br>
-                        <span class="table_cart_td_bold">Size:</span> Xll</p>
-                    </td>
-                    <td class="table_cart_td">$150</td>
-                    <td class="table_cart_td">
-                        <input type="number" name="#" id="#" value="2" min="1" class="table_cart_td_quantity">
-                    </td>
-                    <td class="table_cart_td">FREE</td>
-                    <td class="table_cart_td">$300</td>
-                    <td class="table_cart_td">
-                        <div class="table_cart_cross"><i class="icon-cancel-circled"></i></div>
-                    </td>
-                </tr>
-                <tr class="table_cart_tr">
-                    <td class="table_cart_td">
-                        <a href="single-page.html">
-                            <img src="img/fetured/2920cart.png">
-                        </a>
-                    </td>
-                    <td class="table_cart_td">
-                        <a href="single-page.html">
-                            <p><span class="table_cart_td_name">Mango People T-shirt</span></p>        
-                        </a>
-                        <br>
-                        <p><span class="table_cart_td_bold">Color:</span> Red <br>
-                        <span class="table_cart_td_bold">Size:</span> Xll</p>
-                    </td>
-                    <td class="table_cart_td">$150</td>
-                    <td class="table_cart_td">
-                        <input type="number" name="#" id="#" value="2" min="1" class="table_cart_td_quantity">
-                    </td>
-                    <td class="table_cart_td">FREE</td>
-                    <td class="table_cart_td">$300</td>
-                    <td class="table_cart_td">
-                        <div class="table_cart_cross"><i class="icon-cancel-circled"></i></div>
-                    </td>
-                </tr>
-            </table>
-            <div class="cart_buttons center">
-                <button class="cart_buttons_sh">cLEAR SHOPPING CART</button>
-                <button class="cart_buttons_sh">cONTINUE sHOPPING</button>
-            </div>
-            <div class="cart_forms">
-                <form action="#" class="cart_forms_adr">
-                    <p>Shipping Adress</p>
-                    <div class="cart_forms_select">
-                        <select name="country" id="#" class="cart_forms_inp cart_forms_inp_select">
-                            <option value="netherlands">Netherlands</option>
-                            <option value="germany">Germany</option>
-                            <option value="france">France</option>
-                        </select>
+       <div class="products_sidebar center">
+        <div class="sidebar">
+            <ul>
+                <li class="sidebar_nav_li"><details class="sidebar_det" open>
+                    <summary class="sidebar_summary">Category</summary>
+                    <ul>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Accessories</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Bags</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Denim</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Hoodies & Sweatshirts</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Jackets & Coats</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Pants</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Polos</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Shirts</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Shoes</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Shorts</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Sweaters & Knits</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">T-Shirts</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Tanks</a></li>
+                    </ul>
+                </details></li>
+                <li class="sidebar_nav_li"><details class="sidebar_det">
+                    <summary class="sidebar_summary">BRAND</summary>
+                    <ul>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Accessories</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Bags</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Denim</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Hoodies & Sweatshirts</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Jackets & Coats</a></li>
+                    </ul>
+                </details></li>
+                <li class="sidebar_nav_li"><details class="sidebar_det">
+                    <summary class="sidebar_summary">dESIGNER</summary>
+                    <ul>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Accessories</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Bags</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Denim</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Hoodies & Sweatshirts</a></li>
+                        <li class="sidebar_nav_li_cat"><a href="#" class="sidebar_nav_link">Jackets & Coats</a></li>
+                    </ul>
+                </details></li>
+            </ul>
+        </div>
+        <div class="products">
+            <div class="products_filters">
+                <div class="products_filters_sort">
+                    <div class="products_filters_sortby">
+                        <label for="sortBy">Sort By</label>
+                        <div class="select-sortby">
+                            <select name="sort" id="sort" class="products_filters_sortby_option">
+                                <option value="red">Name</option>
+                                <option value="green">Price</option>
+                            </select>
+                        </div>
                     </div>
-                    <input type="text" name="#" id="#" placeholder="City"  class="cart_forms_inp">
-                    <input type="text" name="#" id="#" placeholder="Postcode / Zip"  class="cart_forms_inp">
-                    <button class="cart_forms_btns">get a quote</button>
-                </form>
-                <form action="#" class="cart_forms_disc">
-                    <p>coupon discount</p>
-                    <p class="cart_forms_disc_p">Enter your coupon code if you have one</p>
-                    <input type="text" name="#" id="#" placeholder="Coupon code"  class="cart_forms_inp">
-                    <button class="cart_forms_btns">Apply coupon</button>
-                </form>
-                <div class="cart_forms_check">
-                    <div class="cart_forms_check_line">Sub total <div class="cart_forms_check_price">$900</div></div>
-                    <div class="cart_forms_check_p cart_forms_check_line">GRAND TOTAL <div class="cart_forms_check_price"><span class="color_text">$900</span></div></div>
-                    <button class="cart_forms_check_btn">proceed to checkout</button>
+                </div>
+            </div>
+            <div class="products_all">
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
+                </div>
+                <div class="fetured_block product products_margb">
+                    <a href="#" >
+                        <img src="img/fetured/2748.png" alt="shirt" class="fetured_img">
+                    </a>
+                    <a href="#" class="fetured_overlay">
+                        <img class="fetured_overlay_img" src="img/card_white.png"> Add to Cart
+                    </a>
+                    <a href="#" class="fetured_overlay products_overlay"><i class="fas fa-retweet"></i></a>
+                    <a href="#" class="fetured_overlay products_overlay_heart"><i class="far fa-heart"></i></a>
+                    <div class="fetured_block_content">
+                        <a href="#" class="fetured_link"><p>BLAZE LEGGINGS</p></a>
+                        <p class="color_text fetured_block_price">$52.00
+                            <img class="fetured_stars" src="img/fetured/stars.png">
+                        </p>
+                    </div>  
                 </div>
             </div>
         </div>
+       </div>
         
         <footer>
             <div class="subscribe center">
