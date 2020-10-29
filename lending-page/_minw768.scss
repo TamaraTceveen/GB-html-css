@@ -1,0 +1,285 @@
+@media (min-width: 768px){
+    .center {
+        padding: 0 calc(50% - 360px);	
+    }
+    .hide_big {
+        display: none;
+    }
+    .header {
+        height: 415px;
+    }
+    .arrows {
+        font-size: 35px;
+    }
+    .nav {
+        width: calc(100vw - 240px);
+        height: 80px;
+        transition: left .4s;
+        padding: 0 21px;
+        position: relative;
+        background: transparent;
+        right: calc(50% - 473px);
+        top: -62px;
+    }
+    .open {
+        display: none;
+    }
+    .close {
+        display: none;
+    }
+    .logo_nav {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 0;
+        &__link {
+            display: block;
+            font-size: 14px;
+            line-height: 22px;
+            color: $white;
+            padding: 10px 10px;
+            width: 100%;
+        }
+    }
+    .social-medias {
+        display: none;
+    }
+    .questions-call {
+        display: none;
+    }
+    .top {
+        position: relative;
+        &__content {
+            position: absolute;
+            top: 90px;
+            left: 0;
+            color: $white;
+            margin-bottom: 18px;
+            font-size: 44px;
+            line-height: 53px;
+            width: 510px;
+            &__p {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 32px;
+                margin-bottom: 36px;
+            }
+            &__btn {
+                width: 280px;
+
+            }
+        }
+    }
+    .agregator {
+        padding-top: 25px;
+        padding-bottom: 51px;
+        width: 720px;
+        position: relative;
+        &__img {
+            position: absolute;
+            height: 202px;
+            width: 398px;
+            margin-bottom: 0;
+            top: 80px;
+            right: calc(50% - 322px);
+        }
+        &__content {
+            &__h3 {
+                font-size: 36px;
+                line-height: 43px;
+                margin-bottom: 15px;
+            }
+            &__p {
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 20px;
+                width: 280px;
+            }
+        }
+    }
+    .steps {
+        margin-top: 50px;
+        width: 645px;
+        display: grid;
+        row-gap: 35px;
+        column-gap: 80px;
+        grid-template-columns: 281px 281px;
+        &__img {
+            height: 188px;
+        }
+        &__h3 {
+            font-size: 26px;
+            line-height: 31px;
+        }
+        &__p {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .step {
+        height: 320px;
+    }
+    .care {
+        height: 121px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__h2 {
+            font-size: 27px;
+            line-height: 34px;
+            width: 370px;
+        }
+    }
+    .recall {
+        background-color: $darkBlue;
+        display: flex;
+        color: $white;
+        justify-content: space-between;
+        align-items: center;
+        height: 171px;
+        &__box {
+            width: 280px;
+        }
+        &__h2 {
+            font-size: 28px;
+            line-height: 34px;
+            text-transform: uppercase;
+            margin-bottom: 11px;
+        }
+        &__p {
+            font-size: 14px;
+            line-height: 13px;
+        }
+        &__form {
+            height: 139px;
+            &__check {
+                display: flex;
+                align-items: center;
+            }
+        }
+        &__tel {
+            @include btn($darkBlue, $white, $white, 23px, 14px);
+            width: 234px;
+            margin-bottom: 9px;
+            padding-right: 23px;
+        }
+        &__btn {
+            @include btn($orange, $orange, #000000, 0px, 16px);
+            width: 280px;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 16px;
+            transition: box-shadow .4s;
+            &:hover {
+                box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55);
+            }
+        }
+        &__agree {
+            font-size: 10px;
+            color: $white;
+            font-weight: 400;
+            line-height: 12px;
+            margin-left: 10px;
+        }
+    }
+    .h3 {
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 51px;
+        margin-bottom: 15px;
+    }
+    .review {
+        height: 320px;
+        display: grid;
+        grid-template-columns: 26px 280px 280px 26px;
+        column-gap: 20px;
+        align-items: start;
+        justify-items: start;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        &__text {
+            // margin-top: 14px;
+            font-size: 14px;
+            line-height: 17px;
+            align-self: start;
+            height: 200px;
+        }
+    }
+    
+    .reviews {
+        display: grid;
+        grid-template-rows: 103px auto;
+        row-gap: 15px;
+        &__human {
+            &__img {
+                height: 103px;
+                margin-right: 18px;
+            }
+            &__data {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &__name {
+                    font-size: 26px;
+                    line-height: 31px;
+                }
+                &__company {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                &__where {
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+    .advantage {
+        grid-template-columns: repeat(6, 100px);
+        column-gap: 21px;
+        height: 209px;
+        justify-items: center;
+        &__h3 {
+            font-size: 36px;
+            line-height: 43px;
+            padding-top: 37px;
+            padding-bottom: 24px;
+        }
+        &__icon {
+            height: 100px;
+            margin-bottom: 16px;
+            &__p {
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+    .guaranties {
+        grid-template-columns: repeat(3, 218px);
+        column-gap: 23px;
+        height: 347px;
+    }
+    .guarantie {
+        grid-template-rows: 100px 24px 120px 48px;
+        row-gap: 8px;
+        &__img {
+            height: 100px;
+        }
+        &__h3 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__p {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        &__btn {
+            width: 220px;
+            padding-left: 60px;
+        }
+    }
+}
